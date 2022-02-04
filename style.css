@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    /* background-color: #ffdbbc; */
+    height: 386px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input > input{
+    width: 366px;
+    height: 30px;
+    font-size: medium;
+}
+
+.input > img{
+    position: absolute;
+    background: transparent;
+    /* right: 20px; */
+    left: 400px;
+    top: 20px;
+}
+
+.user{
+    display: flex;
+}
