@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./index.js"></script>
 
     <title>Cookfy</title>
 </head>
@@ -29,9 +30,9 @@
                 <p>Mudar</p>
                 <!-- <input type="checkbox" id="check">
             <label for="" id="icone"></label> -->
-                <button>
-                    <img src="./assets/menu/Avatar_feminino.png" alt="">
-                </button>
+                <a href="#" class="headerButton" >
+                    <img src="./assets/menu/Avatar_feminino.png" alt="" onclick="openMenu()">
+                </a>
             </div>
             <!--user-->
         </div>
@@ -62,6 +63,50 @@
         </div>
         <!--bottom-->
     </header>
+
+    <nav id="menu">
+        <a href="#" onclick="closeMenu()"><img src="./assets/menu/Fechar.png" alt="fechar" id="close" >Fechar</a>
+
+        <div class="menu-user">
+            <div class="back-user">
+                <img src="./assets/menu/Avatar_masculino.png" alt="">
+            </div>
+            <p>Mudar nome</p>
+        </div><!--menu-user-->
+        <div class="menu-user-info">
+            <div class="menu-user-email">
+                <img src="./assets/menu/envelope-regular.svg" alt=""><p>colocar email</p></i>
+            </div><!--menu-user-email-->
+            <div class="menu-user-tel">
+                <img src="./assets/menu/telefone.png" alt=""><p>colocar telefone</p>
+            </div><!--menu-user-tel-->
+        </div><!--menu-user-->
+
+        <div class="day">
+            <p class="plano">Plano mensal</p>
+            <p>16 dias restantes</p>
+        </div>
+        <div class="container-progress">
+            <div class="progress-bar"> </div>
+        </div>
+
+        <div class="button-user">
+        <button class="button-plano">Assinar plano anual</button>
+        </div>
+
+        <div class="settings">
+            <div class="set">
+                <img src="./assets/menu/Bug.png" alt=""> <p>Reportar bug ou abuso</p>
+            </div>
+            <div class="set">
+                <img src="./assets/menu/Senha.png" alt=""> <p>Alterar senha</p>
+            </div>
+            <div class="set">
+                <img src="./assets/menu/Sair.png" alt=""> <p>Sair</p>
+            </div>
+        </div>
+        
+    </nav>
 
     <main>
         <section class="section-top">
