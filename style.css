@@ -133,6 +133,101 @@ header{
 }
 
 
+#popup{
+    /* background-color: #797979; */
+    /* opacity: 0.53; */
+    width: 920px;
+    height: 380px;
+    left: 250px;
+    top: 70px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background-color: rgba(177, 177, 177, 0.7)
+}
+
+.sun-popup{
+    background-color: #ffff;
+    width: 900px;
+    height: 360px;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 2;
+}
+
+.info-popup{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.popup-text{
+    width: 350px;
+     left: -100px;
+    position: relative; 
+    height: 300px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    top: 25px;
+}
+
+.popup-text p:nth-child(2){
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.popup-text p:nth-child(3){
+    color: #e82147;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.popup-text p:nth-child(4){
+    color: #555455;
+}
+
+
+.close-pop{
+    position: relative;
+    right: -350px;
+    top: 5px;
+}
+
+
+.ceviche{
+    height: 508px;
+    top: -64px;
+    position: relative;
+    left: -74px;
+}
+
+
+.bottom-pop button{
+    color: #e82147;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    background: transparent;
+    margin-right: 10px;
+    height: 25px;
+    width: 80px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.bottom-pop button > img{
+   margin: 0 5px;
+   width: 7px;
+}
+
+.bottom-pop button:nth-child(1){
+    border: 1px solid #e82147;
+}
+
+.bottom-pop button:nth-child(2){
+border: hidden;
+}
+
 /*------------FIM DO HEADER--------------*/
 
 
