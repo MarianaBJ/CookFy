@@ -27,7 +27,7 @@
             </div>
             <!--input-->
             <div class="user">
-                <p>Mudar</p>
+                <p id="profile" >name</p>
                 <a href="#" class="headerButton" >
                     <img src="./assets/menu/Avatar_feminino.png" alt="" onclick="openMenu()">
                 </a>
@@ -40,7 +40,7 @@
             <img src="./assets/Elemento_2.png" alt="Decoração" class="points">
             <div class="tittle">
                 <h1>Bem vindo de volta</h1>
-                <h2>Colocar nome</h2>
+                <h2 id="profile1">name</h2>
                 <div class="description">
                     <p>Contribuição da comunidade:</p>
                     <p>
@@ -91,14 +91,14 @@
             <div class="back-user">
                 <img src="./assets/menu/Avatar_masculino.png" alt="">
             </div>
-            <p>Mudar nome</p>
+            <p id="profile2">name</p>
         </div><!--menu-user-->
         <div class="menu-user-info">
             <div class="menu-user-email">
-                <img src="./assets/menu/envelope-regular.svg" alt=""><p>colocar email</p></i>
+                <img src="./assets/menu/envelope-regular.svg" alt=""><p id="email">colocar email</p></i>
             </div><!--menu-user-email-->
             <div class="menu-user-tel">
-                <img src="./assets/menu/telefone.png" alt=""><p>colocar telefone</p>
+                <img src="./assets/menu/telefone.png" alt=""><p id="telefone">colocar telefone</p>
             </div><!--menu-user-tel-->
         </div><!--menu-user-->
 
@@ -138,7 +138,7 @@
             <img src="./assets/Elemento_7.png" alt="points" class="points-section1">
             <div class="card1">
                 <img src="./assets/food/patrick-kalkman-HkdQ0zoHT5E-unsplash.png" alt="sanduíches">
-                <div class="card1-description">
+                <div class="card1-description" id="card">
                     <p>Adicionado Ontem</p>
                     <h4>Sanduíche de tomate com salada de ovos</h4>
                     <div class="avaliation">
@@ -151,7 +151,7 @@
                     </div>
                     <!--avaliation-->
                     <div class="arrows">
-                        <button>
+                        <button data-js="carosel-right">
                             <img src="./assets/little/Seta_esquerda.png" alt="seta-esquerda">
                         </button>
                         <button>
@@ -160,6 +160,8 @@
 
                     </div>
                     <!--arrows-->
+                </div>
+                
                 </div>
                 <!--card1-description-->
             </div>
@@ -199,15 +201,16 @@
             <!--logo-footer-->
 
             <div class="social">
-                <a href="https://www.facebook.com/" target="_blank"><img src="./assets/social_midias/Fb.png" alt="facebook" class="social-footer"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./assets/social_midias/Fb.png" alt="facebook" class="social-footer-face" id="social-footer"></a>
 
-                <a href="https://www.instagram.com/" target="_blank"><img src="./assets/social_midias/IG.png" alt="" class="social-footer"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./assets/social_midias/IG.png" alt="" class="social-footer-ins" id="social-footer"></a>
 
-                <a href="https://twitter.com/" target="_blank"><img src="./assets/social_midias/Twitter.png" alt="" class="social-footer"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="./assets/social_midias/Twitter.png" alt="" class="social-footer-twitter" id="social-footer"></a>
 
-                <a href="https://www.linkedin.com/" target="_blank"><img src="./assets/social_midias/Linkedin.png" alt="" class="social-footer" id="social-footer-pin"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="./assets/social_midias/Linkedin.png" 
+                    alt="" class="social-footer-link" id="social-footer"></a>
 
-                <a href="https://br.pinterest.com/" target="_blank"><img src="./assets/social_midias/Pinterest.png" alt="" class="social-footer" ></a>
+                <a href="https://br.pinterest.com/" target="_blank"><img src="./assets/social_midias/Pinterest.png" alt="" class="social-footer-pin" id="social-footer"></a>
             </div>
             <!--social-->
         </div>
