@@ -41,7 +41,7 @@ header{
     background: transparent;
     /* right: 20px; */
     left: 61%;
-    top: 32px;
+    top: 38px;
    
 }
 
@@ -50,18 +50,21 @@ header{
     align-items: center;
 }
 
-.user > button{
+.user > a{
     border-radius: 50%;
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     border: hidden;
     background-color: #e82147;
     margin-left: 8px;
 }
 
-.user > button>img{
-    height: 25px;
-    width: 25px;
+.user > a>img{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 5px;
+    top: 5px;
 }
 
 .user p{
@@ -593,7 +596,32 @@ nav >a {
     cursor: pointer;
 }
 
-.social-footer{
+#social-footer{
     margin: 0 6px;
     width: 18px;
+}
+
+
+#card2{
+    display: none;
+}
+
+.social-footer-twitter:hover{
+    content: url('./assets/social_midias/Twitter_active.png');
+}
+
+.social-footer-face:hover{
+    content: url('./assets/social_midias/Fb_active.png');
+}
+
+.social-footer-ins:hover{
+    content: url('./assets/social_midias/IG_active.png');
+}
+
+.social-footer-link:hover{
+    content: url('./assets/social_midias/Linkedin_active.png');
+}
+
+.social-footer-pin:hover{
+    content: url('./assets/social_midias/Twitter_active.png');
 }
